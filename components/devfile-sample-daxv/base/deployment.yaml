@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-daxv
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-devfile-sample-daxv
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:c53c18a4bb45136723073af8042f650c1dc0dfe6f42c9e4b82d4f2607e9ac8c7
         name: my-nodejs
         ports:
         - containerPort: 3001
